@@ -1,0 +1,81 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+}
+
+h3 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 16 px;
+  font-weight: 400;
+}
+
+.main-section {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+  background-color: white;
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.101);
+}
+
+.qr-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.qr-text {
+  width: 280px;
+  margin: 0 auto;
+}
